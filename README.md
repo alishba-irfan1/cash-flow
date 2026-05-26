@@ -1,26 +1,5 @@
 <div align="center">
-<svg width="100%" height="180" viewBox="0 0 1200 180" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="g" x1="0" x2="1">
-      <stop offset="0%" stop-color="#ff4d8d">
-        <animate attributeName="stop-color" values="#ff4d8d;#7c4dff;#00e5ff;#ff4d8d" dur="6s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="100%" stop-color="#7c4dff">
-        <animate attributeName="stop-color" values="#7c4dff;#00e5ff;#ff4d8d;#7c4dff" dur="6s" repeatCount="indefinite"/>
-      </stop>
-    </linearGradient>
-  </defs>
-
-  <rect width="1200" height="180" fill="url(#g)"/>
-
-  <text x="50%" y="50%" text-anchor="middle" fill="white" font-size="48" font-family="Poppins">
-    CashFlow 💸
-  </text>
-
-  <text x="50%" y="70%" text-anchor="middle" fill="white" font-size="18" opacity="0.9">
-    AI Powered Financial Intelligence
-  </text>
-</svg>
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=30&pause=1000&color=FF4D8D&center=true&vCenter=true&width=600&lines=CashFlow+💸;AI+Powered+Finance+App;Track+Your+Money+Smartly" />
 <br/>
 
 <!-- 🎀 Animated Badges 🎀 -->
