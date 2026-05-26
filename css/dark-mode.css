@@ -1,0 +1,342 @@
+/* ============================================
+   DARK MODE STYLES
+   Applied when body has class 'dark-mode'
+   ============================================ */
+
+body.dark-mode {
+    /* Dark Background Colors */
+    --bg-main: #1A1A2E;
+    --bg-card: #16213E;
+    --bg-sidebar: #0F0F1A;
+    
+    /* Dark Text Colors */
+    --text-primary: #E8E8E8;
+    --text-secondary: #A8A8B3;
+    --text-light: #6C6C7E;
+    
+    /* Dark Form Colors */
+    --gray-50: #1E1E32;
+    --gray-100: #252542;
+    --gray-200: #2E2E4A;
+    --gray-300: #3A3A55;
+    --gray-400: #4A4A65;
+    
+    background-color: var(--bg-main);
+    color: var(--text-primary);
+}
+
+/* ============================================
+   DARK MODE - AUTH CARD
+   ============================================ */
+body.dark-mode .auth-card {
+    background: var(--bg-card);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+body.dark-mode .auth-tab {
+    color: var(--text-secondary);
+}
+
+body.dark-mode .auth-tab.active {
+    background: var(--bg-card);
+    color: var(--primary-light);
+}
+
+body.dark-mode .form-group label {
+    color: var(--text-primary);
+}
+
+body.dark-mode .form-group input,
+body.dark-mode .form-group select,
+body.dark-mode .form-group textarea {
+    background: var(--gray-50);
+    border-color: var(--gray-300);
+    color: var(--text-primary);
+}
+
+body.dark-mode .form-group input:focus,
+body.dark-mode .form-group select:focus {
+    border-color: var(--primary-light);
+    background: var(--gray-100);
+    box-shadow: 0 0 0 4px rgba(108, 92, 231, 0.2);
+}
+
+body.dark-mode .form-group input::placeholder {
+    color: var(--text-light);
+}
+
+/* ============================================
+   DARK MODE - SIDEBAR
+   ============================================ */
+body.dark-mode .sidebar {
+    background: var(--bg-sidebar);
+}
+
+body.dark-mode .sidebar-logo {
+    border-bottom-color: var(--gray-300);
+}
+
+body.dark-mode .nav-item:hover {
+    background: var(--gray-100);
+}
+
+body.dark-mode .sidebar-footer {
+    border-top-color: var(--gray-300);
+}
+
+/* ============================================
+   DARK MODE - SUMMARY CARDS
+   ============================================ */
+body.dark-mode .summary-card {
+    background: var(--bg-card);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+body.dark-mode .summary-card-header span {
+    color: var(--text-secondary);
+}
+
+body.dark-mode .summary-card.balance .summary-card-header i {
+    background: rgba(108, 92, 231, 0.2);
+}
+
+body.dark-mode .summary-card.income .summary-card-header i {
+    background: rgba(0, 184, 148, 0.2);
+}
+
+body.dark-mode .summary-card.expense .summary-card-header i {
+    background: rgba(225, 112, 85, 0.2);
+}
+
+body.dark-mode .summary-card.transactions .summary-card-header i {
+    background: rgba(116, 185, 255, 0.2);
+}
+
+/* ============================================
+   DARK MODE - CHARTS
+   ============================================ */
+body.dark-mode .chart-card {
+    background: var(--bg-card);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+body.dark-mode .chart-card h3 {
+    color: var(--text-primary);
+}
+
+/* ============================================
+   DARK MODE - TRANSACTIONS
+   ============================================ */
+body.dark-mode .transactions-section {
+    background: var(--bg-card);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+body.dark-mode .transactions-header {
+    border-bottom-color: var(--gray-200);
+}
+
+body.dark-mode .transactions-header h3 {
+    color: var(--text-primary);
+}
+
+body.dark-mode .filter-group select,
+body.dark-mode .filter-group input {
+    background: var(--gray-50);
+    border-color: var(--gray-300);
+    color: var(--text-primary);
+}
+
+body.dark-mode .filter-group select:focus,
+body.dark-mode .filter-group input:focus {
+    border-color: var(--primary-light);
+}
+
+body.dark-mode .transaction-item {
+    border-bottom-color: var(--gray-200);
+}
+
+body.dark-mode .transaction-item:hover {
+    background: var(--gray-50);
+}
+
+body.dark-mode .transaction-details h4 {
+    color: var(--text-primary);
+}
+
+body.dark-mode .transaction-details p {
+    color: var(--text-secondary);
+}
+
+body.dark-mode .transaction-amount .date {
+    color: var(--text-secondary);
+}
+
+/* ============================================
+   DARK MODE - MODAL
+   ============================================ */
+body.dark-mode .modal {
+    background: var(--bg-card);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+}
+
+body.dark-mode .modal-header {
+    border-bottom-color: var(--gray-200);
+}
+
+body.dark-mode .modal-header h3 {
+    color: var(--text-primary);
+}
+
+body.dark-mode .modal-close {
+    background: var(--gray-100);
+    color: var(--text-secondary);
+}
+
+body.dark-mode .modal-close:hover {
+    background: var(--gray-200);
+    color: var(--text-primary);
+}
+
+body.dark-mode .modal-footer {
+    border-top-color: var(--gray-200);
+}
+
+/* ============================================
+   DARK MODE - PERIOD TABS
+   ============================================ */
+body.dark-mode .period-tabs {
+    background: var(--gray-100);
+}
+
+body.dark-mode .period-tab {
+    color: var(--text-secondary);
+}
+
+body.dark-mode .period-tab.active {
+    background: var(--bg-card);
+    color: var(--primary-light);
+}
+
+/* ============================================
+   DARK MODE - BUTTONS
+   ============================================ */
+body.dark-mode .btn-secondary {
+    background: var(--gray-100);
+    color: var(--text-primary);
+}
+
+body.dark-mode .btn-secondary:hover {
+    background: var(--gray-200);
+}
+
+body.dark-mode .export-btn {
+    background: var(--gray-100);
+    color: var(--text-secondary);
+}
+
+body.dark-mode .export-btn:hover {
+    background: var(--gray-200);
+    color: var(--text-primary);
+}
+
+/* ============================================
+   DARK MODE - VOICE INPUT
+   ============================================ */
+body.dark-mode .voice-result {
+    background: var(--gray-100);
+    color: var(--text-primary);
+}
+
+/* ============================================
+   DARK MODE - LOADING OVERLAY
+   ============================================ */
+body.dark-mode .loading-overlay {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+body.dark-mode .loading-spinner {
+    border-color: var(--gray-200);
+    border-top-color: var(--primary-light);
+}
+
+/* ============================================
+   DARK MODE - EMPTY STATE
+   ============================================ */
+body.dark-mode .empty-state h3 {
+    color: var(--text-primary);
+}
+
+/* ============================================
+   DARK MODE - SCROLLBAR
+   ============================================ */
+body.dark-mode ::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+body.dark-mode ::-webkit-scrollbar-thumb {
+    background: var(--gray-300);
+}
+
+body.dark-mode ::-webkit-scrollbar-thumb:hover {
+    background: var(--gray-400);
+}
+
+body.dark-mode .sidebar::-webkit-scrollbar-thumb {
+    background: rgba(255,255,255,0.15);
+}
+
+/* ============================================
+   DARK MODE TOGGLE BUTTON STYLE
+   ============================================ */
+.dark-mode-toggle {
+    width: 40px;
+    height: 40px;
+    border-radius: var(--radius-full);
+    background: var(--gray-100);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    transition: var(--transition);
+    cursor: pointer;
+    border: none;
+    color: var(--text-primary);
+}
+
+body.dark-mode .dark-mode-toggle {
+    background: var(--gray-200);
+    color: #FDCB6E;
+}
+
+.dark-mode-toggle:hover {
+    transform: scale(1.1);
+}
+
+/* ============================================
+   DARK MODE - ALERTS
+   ============================================ */
+body.dark-mode .alert-error {
+    background: rgba(225, 112, 85, 0.15);
+    color: #FF7675;
+}
+
+body.dark-mode .alert-success {
+    background: rgba(0, 184, 148, 0.15);
+    color: #55EFC4;
+}
+
+/* ============================================
+   DARK MODE TRANSITION
+   Smooth transition when toggling
+   ============================================ */
+body,
+.auth-card,
+.summary-card,
+.chart-card,
+.transactions-section,
+.modal,
+.form-group input,
+.form-group select {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}

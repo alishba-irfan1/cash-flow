@@ -1,0 +1,6 @@
+# Python packages needed for ML predictions
+# Install using: pip install -r requirements.txt
+
+numpy>=1.21.0
+pandas>=1.3.0
+scikit-learn>=1.0.0

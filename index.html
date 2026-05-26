@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Flow - Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dark-mode.css">
+    <style>
+        .auth-container { display: flex; min-height: 100vh; background: #ffffff; padding: 0; }
+        .brand-side { flex: 1; background: linear-gradient(135deg, #6C5CE7 0%, #a29bfe 100%); color: white; display: flex; flex-direction: column; justify-content: center; padding: 60px; }
+        .brand-side h1 { font-size: 3rem; margin-bottom: 20px; font-weight: 800; }
+        .brand-side p { font-size: 1.1rem; opacity: 0.9; max-width: 400px; line-height: 1.6; }
+        .brand-features { margin-top: 50px; list-style: none; }
+        .brand-features li { display: flex; align-items: center; gap: 15px; margin-bottom: 20px; font-size: 1rem; }
+        .brand-features i { font-size: 1.2rem; background: rgba(255,255,255,0.2); padding: 10px; border-radius: 8px; }
+        .form-side { flex: 1; display: flex; align-items: center; justify-content: center; padding: 40px; background: #fff; }
+        .auth-card { background: transparent; box-shadow: none; padding: 0; width: 100%; max-width: 420px; animation: none; }
+        .auth-logo { text-align: left; margin-bottom: 30px; }
+        .auth-logo h1 { font-size: 1.8rem; color: #2d3436; -webkit-text-fill-color: #2d3436; }
+        .auth-logo p { color: #636e72; text-transform: none; letter-spacing: 0; font-size: 0.9rem; }
+        .form-group input, .form-group select { background: #f8f9fa; border: 2px solid #e9ecef; color: #2d3436; border-radius: 10px; padding: 14px 16px; font-size: 0.95rem; }
+        .form-group input::placeholder { color: #adb5bd; }
+        .form-group input:focus { background: #fff; border-color: #6C5CE7; box-shadow: 0 0 0 4px rgba(108, 92, 231, 0.1); }
+        .form-group label { color: #495057; font-weight: 600; margin-bottom: 8px; display: block; }
+        .auth-tabs { background: #f1f3f5; border-radius: 10px; padding: 4px; margin-bottom: 25px; }
+        .auth-tab { border-radius: 8px; color: #868e96; padding: 10px; }
+        .auth-tab.active { background: #fff; color: #6C5CE7; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .btn-primary { background: #6C5CE7; color: #fff; border-radius: 10px; padding: 14px; box-shadow: 0 4px 15px rgba(108, 92, 231, 0.3); }
+        .btn-primary:hover { background: #5a4bd1; transform: translateY(-2px); box-shadow: 0 6px 20px rgba(108, 92, 231, 0.4); }
+        .auth-card p a { color: #6C5CE7; text-decoration: none; font-weight: 600; }
+        .auth-card p a:hover { text-decoration: underline; }
+        .auth-card p { color: #868e96; }
+        #authAlert { background: #ffeaea; color: #d63031; border: 1px solid #ffcccc; border-radius: 10px; }
+        #authAlert.alert-success { background: #e6ffed; color: #00b894; border-color: #b2f2d0; }
+        .forgot-link { display: block; text-align: center; margin-top: 15px; font-size: 0.85rem; color: #868e96; cursor: pointer; text-decoration: underline; }
+        .forgot-link:hover { color: #6C5CE7; }
+        @media (max-width: 900px) {
+            .auth-container { flex-direction: column; }
+            .brand-side { padding: 40px 20px; text-align: center; }
+            .brand-side p { margin: 0 auto; }
+            .brand-features { display: none; }
+        }
+        body.dark-mode .auth-container { background: #1A1A2E; }
+        body.dark-mode .form-side { background: #16213E; }
+        body.dark-mode .auth-card h1 { color: #fff; -webkit-text-fill-color: #fff; }
+        body.dark-mode .auth-card p { color: #a8a8b3; }
+        body.dark-mode .form-group input { background: #1A1A2E; border-color: #2E2E4A; color: #fff; }
+        body.dark-mode .form-group input:focus { background: #16213E; border-color: #6C5CE7; }
+        body.dark-mode .form-group label { color: #ccc; }
+        body.dark-mode .auth-tabs { background: #1A1A2E; }
+        body.dark-mode .auth-tab { color: #888; }
+        body.dark-mode .auth-tab.active { background: #16213E; color: #A29BFE; }
+        body.dark-mode .auth-card p a { color: #A29BFE; }
+        .loading-overlay { background: rgba(255,255,255,0.9) !important; }
+        .loading-content p { color: #333 !important; }
+        body.dark-mode .loading-overlay { background: rgba(0,0,0,0.8) !important; }
+        body.dark-mode .loading-content p { color: #fff !important; }
+    </style>
+</head>
+<body>
+    <div class="auth-container">
+        <div class="brand-side">
+            <div style="margin-bottom: 40px;">
+                <h1><i class="fas fa-coins" style="margin-right: 10px;"></i>Cash Flow</h1>
+                <p>The smartest way to track your expenses, manage budgets, and grow your savings.</p>
+            </div>
+            <ul class="brand-features">
+                <li><i class="fas fa-chart-pie"></i> Visual expense tracking</li>
+                <li><i class="fas fa-robot"></i> AI spending predictions</li>
+                <li><i class="fas fa-microphone"></i> Voice input support</li>
+                <li><i class="fas fa-file-pdf"></i> Instant PDF reports</li>
+            </ul>
+        </div>
+
+        <div class="form-side">
+            <div class="auth-card">
+                <div class="auth-logo">
+                    <h1>Welcome back</h1>
+                    <p>Login to access your dashboard</p>
+                </div>
+                
+                <div class="auth-tabs">
+                    <button class="auth-tab active" onclick="showTab('login')">Login</button>
+                    <button class="auth-tab" onclick="showTab('signup')">Sign Up</button>
+                </div>
+                
+                <div id="authAlert" class="alert alert-error" style="display:none;"></div>
+                
+                <form id="loginForm" onsubmit="handleLogin(event)">
+                    <div class="form-group">
+                        <label>Email Address</label>
+                        <input type="email" id="loginEmail" placeholder="you@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input type="password" id="loginPassword" placeholder="Enter your password" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="loginBtn" style="width: 100%; margin-top: 10px;">
+                        <span>Login</span>
+                    </button>
+                    <a class="forgot-link" onclick="alert('Password reset email sent! (Note: This is a UI demo. Real email requires an SMTP server setup).')">Forgot Password?</a>
+                    <p class="text-center mt-2" style="margin-top: 20px !important; font-size: 0.9rem;">
+                        Don't have an account? <a href="#" onclick="showTab('signup')">Sign up for free</a>
+                    </p>
+                </form>
+                
+                <form id="signupForm" style="display: none;" onsubmit="handleSignup(event)">
+                    <div class="form-group">
+                        <label>Username</label>
+                        <input type="text" id="signupUsername" placeholder="Choose a username" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Email Address</label>
+                        <input type="email" id="signupEmail" placeholder="you@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input type="password" id="signupPassword" placeholder="Min 6 characters" required minlength="6">
+                    </div>
+                    <div class="form-group">
+                        <label>Confirm Password</label>
+                        <input type="password" id="signupConfirmPassword" placeholder="Repeat password" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="signupBtn" style="width: 100%; margin-top: 10px;">
+                        <span>Create Account</span>
+                    </button>
+                    <p class="text-center mt-2" style="margin-top: 20px !important; font-size: 0.9rem;">
+                        Already have an account? <a href="#" onclick="showTab('login')">Login</a>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <div id="loadingOverlay" class="loading-overlay" style="display:none;">
+        <div class="loading-content">
+            <div class="loading-spinner"></div>
+            <p>Please wait...</p>
+        </div>
+    </div>
+    
+    <script src="js/auth.js"></script>
+    <script src="js/dark-mode.js"></script>
+</body>
+</html>
