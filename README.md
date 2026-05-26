@@ -1,6 +1,8 @@
 <div align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=30&pause=1000&color=FF4D8D&center=true&vCenter=true&width=600&lines=CashFlow+💸;AI+Powered+Finance+App;Track+Your+Money+Smartly" />
-<br/>
+  <img src="https://i.ibb.co/vCmqvxhG/Chat-GPT-Image-May-26-2026-04-44-51-PM.png" alt="cash flow" width="100%"/>
+<br>
+<br>
+<br>
 
 <!-- 🎀 Animated Badges 🎀 -->
 <img src="https://img.shields.io/badge/%E2%9C%A8_Pink-Aesthetic-FF69B4?style=for-the-badge&logoColor=white&labelColor=FF69B4" alt="Pink Aesthetic"/>
@@ -12,14 +14,7 @@
 
 <!-- 💖 Typing SVG 💖 -->
 <a href="https://github.com/alishba-irfan1/cash-flow">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=FF69B4&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=%F0%9F%92%97+Track+Your+Money+With+Style;%F0%9F%8C%B8+AI-Powered+Predictions;%F0%9F%8E%80+Dark+Mode+Aesthetics;%E2%9C%A8+Voice+Input+Enabled" alt="Typing SVG"/>
-</a>
-
-<br/><br/>
-
-<!-- 🌷 Cute Repo Link 🌷 -->
-<a href="https://github.com/alishba-irfan1/cash-flow">
-<img src="https://img.shields.io/badge/%F0%9F%8C%88_Visit_Repo-CashFlow-FF69B4?style=for-the-badge&logo=github&logoColor=white&labelColor=FF69B4" alt="Visit Repo"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&duration=2800&pause=900&color=FF4FA3&center=true&vCenter=true&width=500&height=80&lines=%F0%9F%92%B8+Smart+CashFlow+Tracker;%E2%9C%A8+AI+Finance+Insights;%F0%9F%8C%B8+Beautiful+Minimal+Design" alt="CashFlow Typing SVG"/>
 </a>
 
 </div>
@@ -31,7 +26,7 @@
 
 ## 🌸 About CashFlow
 
-**CashFlow** is not just another finance tracker — it's your *aesthetic*, *AI-powered* financial bestie! 💖 Built with love and sprinkled with pink vibes, this web app helps you track expenses, predict future spending with machine learning, and manage your money like a queen. 👑✨
+**CashFlow** is not just another finance tracker - it's your *aesthetic*, *AI-powered* financial bestie! 💖 Built with love and sprinkled with pink vibes, this web app helps you track expenses, predict future spending with machine learning, and manage your money like a queen. 👑✨
 
 > 🎀 *Because your finances deserve to be as pretty as you are!* 🌸
 
@@ -471,19 +466,6 @@ We love contributions from our fellow coding girlies! 💖 Here's how you can he
 6. 🎀 Open a **Pull Request** and describe your changes
 
 > 🌸 *Every contribution matters, no matter how small! You got this, bestie!*
-
----
-
-<!-- 🎀 License 🎀 -->
-<div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=2800&pause=800&color=FF69B4&center=true&vCenter=true&repeat=true&width=500&height=50&lines=%F0%9F%93%9C+License+%F0%9F%93%9C" alt="License"/>
-</div>
-
-This project is licensed under the **MIT License** — feel free to use, modify, and share! 🌸
-
-<div align="center">
-<img src="https://img.shields.io/badge/License-MIT-FF69B4?style=for-the-badge&logoColor=white&labelColor=FF69B4" alt="MIT License"/>
-</div>
 
 ---
 
