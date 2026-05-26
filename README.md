@@ -1,7 +1,6 @@
 <div align="center">
 
-<!-- ✨ Animated Top Banner ✨ -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=180&section=header&text=CashFlow&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Your+AI-Powered+Financial+Companion+%F0%9F%92%B8%F0%9F%8C%B8&descSize=18&descAlignY=52" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:ffafbd,100:ffc3a0&height=180&section=header&text=CashFlow&fontSize=44&fontColor=ffffff&animation=twinkling&desc=Smart%20Money%20Manager%20✨&descSize=18&descAlignY=55" width="100%"/>
 
 <!-- 🌸 Sparkle Divider 🌸 -->
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjJ4NzV0ZTRxdGJ5MWdzNHFqZnU3Y3F0dDRxYnR5N2U1YTN0OWNreiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7qE1YN7aBOFPRw8E/giphy.gif" width="55"/>
@@ -332,16 +331,10 @@ http://localhost/cash-flow/index.html
 </div>
 
 ### 🧠 AI-Powered Predictions
-<div align="center">
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzU0d2VhY3U3b2R4eHBxbHJkN3N2YnZxb2l6dGRoNjRtZ3d0dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7btNa0RUYa5E7iiQ/giphy.gif" width="200"/>
-</div>
 
 Our Python ML model analyzes your past transactions and predicts future spending trends. The `prediction_model.py` uses machine learning algorithms to forecast your cash flow, so you're *always* one step ahead of your budget! 💸✨
 
 ### 🎤 Voice Input
-<div align="center">
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWRjcmx3NHRwM2U2ZWd0b3c3Z2Z0dXh5bXVrYjN0a2x1ZWV0NHRqNWNlbXV1Y2hmZWU0ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT9IgzoKnwFNmISR8I/giphy.gif" width="150"/>
-</div>
 
 Too lazy to type? Same, bestie. 🤭 Just press the mic button and say *"Spent 50 dollars on coffee"* and CashFlow does the rest! Powered by the Web Speech API for real-time voice recognition. Hands-free budgeting = queen behavior! 👑
 
@@ -510,15 +503,7 @@ This project is licensed under the **MIT License** — feel free to use, modify,
 
 ### 🌸 Made with 💖 by [Alishba Irfan](https://github.com/alishba-irfan1) 🌸
 
-<img src="https://img.shields.io/badge/%E2%9D%A4%EF%B8%8F_Made_with-Love-FF69B4?style=for-the-badge&logoColor=white&labelColor=FF69B4" alt="Made with Love"/>
-
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=alishba-irfan1&repo=cash-flow&style=for-the-badge&color=FF69B4&label=PINK+VIEWS" alt="Visitor Count"/>
-
-<br/><br/>
-
-<!-- ✨ Animated Bottom Banner ✨ -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=120&section=footer" width="100%"/>
 
 </div>
