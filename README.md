@@ -1,10 +1,26 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=30&duration=2500&pause=800&color=FF4D8D&center=true&vCenter=true&width=600&lines=CashFlow+💸;AI+Finance+Tracker;Smart+Money+Management;Track+%7C+Analyze+%7C+Grow" />
-</p>
+<svg width="100%" height="180" viewBox="0 0 1200 180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0%" stop-color="#ff4d8d">
+        <animate attributeName="stop-color" values="#ff4d8d;#7c4dff;#00e5ff;#ff4d8d" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#7c4dff">
+        <animate attributeName="stop-color" values="#7c4dff;#00e5ff;#ff4d8d;#7c4dff" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+  </defs>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=alishba-irfan1&theme=tokyo-night" />
-</p>
+  <rect width="1200" height="180" fill="url(#g)"/>
+
+  <text x="50%" y="50%" text-anchor="middle" fill="white" font-size="48" font-family="Poppins">
+    CashFlow 💸
+  </text>
+
+  <text x="50%" y="70%" text-anchor="middle" fill="white" font-size="18" opacity="0.9">
+    AI Powered Financial Intelligence
+  </text>
+</svg>
 <br/>
 
 <!-- 🎀 Animated Badges 🎀 -->
