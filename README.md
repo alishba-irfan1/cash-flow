@@ -1,10 +1,10 @@
 <div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=30&duration=2500&pause=800&color=FF4D8D&center=true&vCenter=true&width=600&lines=CashFlow+💸;AI+Finance+Tracker;Smart+Money+Management;Track+%7C+Analyze+%7C+Grow" />
+</p>
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:ffafbd,100:ffc3a0&height=180&section=header&text=CashFlow&fontSize=44&fontColor=ffffff&animation=twinkling&desc=Smart%20Money%20Manager%20✨&descSize=18&descAlignY=55" width="100%"/>
-
-<!-- 🌸 Sparkle Divider 🌸 -->
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjJ4NzV0ZTRxdGJ5MWdzNHFqZnU3Y3F0dDRxYnR5N2U1YTN0OWNreiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7qE1YN7aBOFPRw8E/giphy.gif" width="55"/>
-
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=alishba-irfan1&theme=tokyo-night" />
+</p>
 <br/>
 
 <!-- 🎀 Animated Badges 🎀 -->
